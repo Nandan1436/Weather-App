@@ -1,2 +1,2 @@
-# Weather-App
-This is a simple web-based weather app from which you can get the basic information about the weather in your city. 
+# Simple Weather App
+The Simple Weather App is a user-friendly web application built with HTML, CSS, and JavaScript that allows users to quickly fetch and view current weather information for any city. By entering the name of a city, users can access essential weather data, including the current temperature, a brief description of the weather conditions, wind speed, and humidity levels. This app utilizes the OpenWeatherMap API to deliver accurate and real-time weather updates.
