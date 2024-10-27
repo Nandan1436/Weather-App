@@ -28,7 +28,7 @@ async function checkWeather(city){
     description.innerHTML=`${weather_data.weather[0].description}`
     humidity.innerHTML=`${weather_data.main.humidity}%`
     wind_speed.innerHTML=`${Math.round(3.6*(weather_data.wind.speed))}Km/H`
-
+    console.log(weather_data.timezone)
     switch(weather_data.weather[0].main){
         case 'Clouds':
             weather_img.src="./images/cloud.png"
